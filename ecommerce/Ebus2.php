@@ -7,7 +7,7 @@ session_start();
 <html>
     <head>
         
-        <title> Enter Details</title>
+        <title> enter Details</title>
         
         
         <!--jQuery-->
@@ -20,7 +20,7 @@ session_start();
         
             <br />
             
-            <form method = "POST" action = "Ebus3.php">
+            <form method = "POST" action = "ebus3.php">
                 
                 <label for="user_pin">
                      PIN 

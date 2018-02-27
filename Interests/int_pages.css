@@ -1,5 +1,10 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    
+    background-image: url("http://www.kuoni.co.uk/north-and-central-america/north-america");
+    background-repeat: no-repeat;
+    background-size: cover;
+background-color: rgb(238, 0, 90);
+    
 }
 
 #section2{
