@@ -184,15 +184,7 @@ h2{
         $_SESSION["total"] = $_POST["total"];
         ?>
         
-                <?php
-        // set session variables
-        $_SESSION["user_name"] = $_POST["user_name"];
-        ?>
-        
-          <?php
-        // set session variables
-        $_SESSION["user_email"] = $_POST["user_email"];
-        ?>
+         
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>

@@ -122,6 +122,12 @@ p {  text-align: center;
     </div>
   </header>
   
+      <?php
+            // set session variables
+            $_SESSION["user_name"] = $_POST["user_name"];
+            $_SESSION["user_email"] = $_POST["user_email"];
+            ?>
+  
          
          <h1> RECEIPT</h1>
          
