@@ -95,7 +95,7 @@ h2{
 </style>
 
 
-        <title><i>Select Product</i> </title>
+        <title>Select Product </title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -108,7 +108,7 @@ h2{
   <header>
     <div class="container">
       <h1 class="logo"></h1>
-      
+      <img src="../mistlogo.JPG" alt="logo" class="logo" height="75" width="250">
 
       <nav>
         <ul>

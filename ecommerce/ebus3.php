@@ -106,7 +106,7 @@ p {  text-align: center;
       <header>
     <div class="container">
       <h1 class="logo"></h1>
-      
+      <img src="../mistlogo.JPG" alt="logo" class="logo" height="75" width="250">
 
       <nav>
         <ul>
@@ -121,8 +121,7 @@ p {  text-align: center;
       </nav>
     </div>
   </header>
-  
-      <?php
+  <?php
             // set session variables
             $_SESSION["user_name"] = $_POST["user_name"];
             $_SESSION["user_email"] = $_POST["user_email"];
