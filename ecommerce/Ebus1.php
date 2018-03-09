@@ -109,6 +109,9 @@ h2{
    
     </head>
     <body>
+      
+      <!--  adding background image and toolbar links-->
+        
         <body style="background-image:url(../../oceanback.jpg)" class="body">
         
   <header>
@@ -133,7 +136,7 @@ h2{
         
         
         <h4> Select a product</h4>
-
+ <!--  coding for shop -->
 <br/>
 <form method="POST" action="Ebus2.php">
     
@@ -205,6 +208,7 @@ h2{
 
 </form>
 
+ <!--  calculate and clear button -->
 <br/>
 <button onClick="calcSub()">Calculate Cost</button>
 <a role="button" href="Ebus1.php">Clear Choice</a>

@@ -101,6 +101,9 @@ p {  text-align: center;
 
      </head>
       <body>
+        
+        <!--  adding background image and toolbar links-->
+        
         <body style="background-image:url(../../oceanback.jpg)" class="body">
          
       <header>
@@ -128,6 +131,7 @@ p {  text-align: center;
          <h1> RECEIPT</h1>
          
          <p>
+            <!--  php actions -->
            
             <?php
             // set session variables
