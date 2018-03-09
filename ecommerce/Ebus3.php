@@ -7,7 +7,7 @@ session_start();
 <html>
     <head>
      <title> RECEIPT </title>
-     
+      <!-- adding toolbar -->
      <style>
         
         h1 {
@@ -114,23 +114,28 @@ p {  text-align: center;
           <li><a href="../CV/cv_page1.html">CV</a></li>
           <li><a href="../ecommerce/Ebus1.php">Shop</a></li>
           <li><a href="../Interests/InterestsHP.html">Interests</a></li>
-          <li><a href="#">About Me</a></li>
+          <li><a href="../About.html">About Me</a></li>
         </ul>
         
         
       </nav>
     </div>
   </header>
-  <?php
-            // set session variables
-            $_SESSION["user_name"] = $_POST["user_name"];
-            $_SESSION["user_email"] = $_POST["user_email"];
-            ?>
+ 
+ 
   
          
          <h1> RECEIPT</h1>
          
          <p>
+           
+            <?php
+            // set session variables
+            $_SESSION["user_name"] = $_POST["user"];
+            $_SESSION["user_email"] = $_POST["email"];
+            ?>
+            
+            
          <?php
          // echo session variables from previous page
          echo "Total is " . $_SESSION["total"] . ". ";

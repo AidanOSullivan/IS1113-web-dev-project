@@ -1,7 +1,13 @@
+<?php
+// start session
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
-        
+         <!-- adding toolbar -->
           <style>
         
         h1 {
@@ -116,7 +122,7 @@ h2{
           <li><a href="../CV/cv_page1.html">CV</a></li>
           <li><a href="../ecommerce/Ebus1.php">Shop</a></li>
           <li><a href="../Interests/InterestsHP.html">Interests</a></li>
-          <li><a href="#">About Me</a></li>
+          <li><a href="../About.html">About Me</a></li>
         </ul>
         
         

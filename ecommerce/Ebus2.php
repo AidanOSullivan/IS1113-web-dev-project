@@ -6,7 +6,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        
+         <!-- adding toolbar -->
                   <style>
         
         h1 {
@@ -120,7 +120,7 @@ h2{
           <li><a href="../CV/cv_page1.html">CV</a></li>
           <li><a href="../ecommerce/Ebus1.php">Shop</a></li>
           <li><a href="../Interests/InterestsHP.html">Interests</a></li>
-          <li><a href="#">About Me</a></li>
+          <li><a href="../About.html">About Me</a></li>
         </ul>
         
         
@@ -134,13 +134,13 @@ h2{
         
             <br />
             
-            <form method = "POST" action = "ebus3.php">
+            <form method = "POST" action = "Ebus3.php">
                 
                 <label for="user_email">
                      Email:
                 </label>
                 
-                <input type="email" id="user_email" placeholder="john@email.com">
+                <input type="email" id="user_email" name="email" placeholder="john@email.com">
                     
                 
                 <br/>
@@ -151,7 +151,7 @@ h2{
                      Name:
                 </label>
                 
-                <input type="text" id="user_name" placeholder="John Appleseed">
+                <input type="text" id="user_name" name="user" placeholder="John Appleseed">
                     
                 
                 <br/>
@@ -183,6 +183,8 @@ h2{
         // set session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
+        
+    
         
          
         
